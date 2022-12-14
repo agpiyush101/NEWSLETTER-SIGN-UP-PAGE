@@ -33,7 +33,7 @@ app.post("/",function(req,res){
   const url = "https://us14.api.mailchimp.com/3.0/lists/28548f1876", // this is post url of mailchimp server where us14 is the last words from api that is the address of server and lists/listid is the address to store our subscribers
       options = {
       method : "POST",
-      auth : "Devang123:d7be4a554adae1e05fe93101065d8109-us14"   // username:password (Username you can take wahtever you want but password will be api key)
+      auth : "Piyush123:d7be4a554adae1e05fe93101065d8109-us14"   // username:password (Username you can take wahtever you want but password will be api key)
   }
   const request  = https.request(url,options,function(response){
 
